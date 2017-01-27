@@ -2,7 +2,7 @@
 
 import docker
 
-image = docker.Docker('owner/project:0.0', './Dockerfile')
+image = docker.Docker('owner/project:0.0', './test-Dockerfile')
 
 image.build_rm = True
 image.build()
