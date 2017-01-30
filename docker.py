@@ -1,7 +1,10 @@
 """ -*- coding: utf-8 -*- """
 
 import os
+import sys
 from subprocess import Popen, PIPE
+
+sys.dont_write_bytecode = True
 
 
 class Docker(object):

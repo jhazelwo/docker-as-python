@@ -2,7 +2,7 @@
 
 * Don't use this! Writing this just for fun.
 
-```
+```python
 import docker
 
 image = docker.Docker('owner/project:0.0', './test-Dockerfile')
