@@ -1,6 +1,8 @@
 """ -*- coding: utf-8 -*- """
-
+import sys
 import docker
+
+sys.dont_write_bytecode = True
 
 image = docker.Docker('owner/project:0.0', './test-Dockerfile')
 
